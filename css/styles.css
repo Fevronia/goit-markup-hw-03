@@ -1,4 +1,19 @@
-
+ul, ol{
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+a{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img{
+  display: block;
+}
   body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -51,6 +66,7 @@
   }
   .section_one{
     background-color: #2e2f42;
+    padding: 356px 635px;
   }
   .effective_solutions{
     font-size: 56px;
@@ -69,6 +85,8 @@
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    padding: 16px 32px;
+    margin: 356px 635px;
   }
   .order_buton:hover{
     background-color: #404BBF
